@@ -9,6 +9,7 @@ import Work from "./Work";
 import Skills from "./Skills";
 import Price from "./Price.jsx";
 import Contact from "./Contact";
+import Footer from "./Footer";
 function App() {
   return <div>
   <Navbar />
@@ -21,6 +22,7 @@ function App() {
       <Skills />
       <Price />
       <Contact />
+      <Footer />
       </div>;
 }
 

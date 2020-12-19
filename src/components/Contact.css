@@ -1,5 +1,5 @@
 .contact{
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
     margin-top: 4rem;
  background-color:rgb(240, 240, 240);
 }
@@ -10,6 +10,7 @@
 .text-section{
     font-size: x-large;
 margin-bottom: 2rem;
+margin-left: 1rem;
 }
 .text-section h4{
 padding: 10px 0;    

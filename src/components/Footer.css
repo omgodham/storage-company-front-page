@@ -1,0 +1,31 @@
+.footer{
+    background-color: #000;
+text-align: center;
+padding: 2rem 0;
+}
+.footer-icon{
+    font-size: 17px !important;
+}
+.footer-btn{
+    text-decoration: none;
+    color: #000;
+    padding: 10px 5px;
+    font-size: 1rem;
+    width: 10%;
+    border: none;
+    background-color: #fff;
+}
+.footer-btn:hover{
+    opacity: 0.7;
+}
+
+.footer-socials i:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.footer-socials{
+    margin-top: 2rem;    
+    color: #fff;
+    font-size: 1.5rem;
+}

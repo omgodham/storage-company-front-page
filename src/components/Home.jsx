@@ -1,6 +1,6 @@
 import "./Home.css"
 function Home() {
-  return        <div class="home-page">
+  return        <div class="home-page" id="home">
   <div class="content">
       <h1 class="heading">Start something that matters</h1>
       <p class="description">
