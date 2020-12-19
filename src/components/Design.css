@@ -1,0 +1,40 @@
+.design{
+    width: 100%;
+    background-color:rgb(240, 240, 240);
+}
+.info{
+    width: 95%;
+    margin: 0 auto;
+    padding: 8rem 0;
+    display:grid;
+    grid-template-columns: auto auto;
+}
+.left-info{
+    
+}
+.left-info h3{
+    font-weight: 100;
+    margin-bottom: 2rem ;
+    font-size: 1.5rem;
+}
+.left-info p{
+    width:90% ;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin-bottom: 1.5rem;
+}
+.left-info-btn{
+    border:none;
+    color: #fff;
+    background-color: #000;
+    font-size: 1rem;
+    padding: .6rem 1rem;
+}
+.left-info-btn i{
+    margin-right: .5rem;
+}
+.right-info-img{
+    height:100%;
+    width: 100%;
+    border-radius: 5px;
+}

@@ -1,0 +1,8 @@
+.images{
+display: grid;
+grid-template-columns: repeat(4,auto);
+grid-row-gap: 1rem;
+}
+.image:hover{
+    opacity: 0.6;
+}

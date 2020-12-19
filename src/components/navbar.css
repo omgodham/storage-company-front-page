@@ -1,0 +1,39 @@
+.navbar{
+    width: 100%;
+    display: grid;
+    grid-template-columns:0.1fr 1fr;
+line-height: 3.5rem;
+}
+.navbar-logo{
+ 
+    letter-spacing: .3rem;
+    text-align: center;
+}
+.navbar-logo:hover{
+    cursor: pointer;
+    background-color: #B3B3B3;
+}
+.menu{
+    text-align:center;
+    width: 40%;
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-self: right;
+    list-style: none;
+    margin-right: 2rem;
+}
+.menu li:hover{
+background-color: #B3B3B3;
+}
+.menu-links{
+    cursor: pointer;
+    color: #000;
+    text-decoration: none;
+}
+.menu-links i{
+    position: relative;
+    bottom: 2px;
+    padding-bottom: .3rem;
+    font-size:.9rem;
+    padding: 0.1rem;
+}

@@ -1,0 +1,65 @@
+.price{
+    background-color: gray;
+    width: 100%;
+}
+.price-cards{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.price .heading{
+font-size: 1.5rem;
+text-align: center;
+color: #fff;
+}
+
+.price .heading2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.price-card{
+    margin: 24px;
+    background-color: #fff;
+}
+
+.price-menu{
+    font-size: 1rem;
+    text-align: center;
+    list-style: none;
+    line-height: 3rem;
+}
+
+/* .price-menu-links{
+
+} */
+.plan{
+    padding: 1.5rem 0;
+    background-color: black;
+    color:#fff;
+    font-size: 1.5rem;
+}
+.price-btn{
+    background-color: black;
+    color: white;
+border: none;
+padding: 1rem 2rem;
+margin: 1rem 0;
+}
+.price-tag{
+    padding: 2rem 0;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+.price-btn:hover{
+    cursor: pointer;
+}
+.for-bg{
+    background-color: rgb(235, 223, 223);
+}
+#is-active{
+    background-color: rgb(230, 71, 71);  
+    padding: 3rem 0;
+}
+#active{
+    margin:0;
+}
