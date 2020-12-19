@@ -1,28 +1,29 @@
 .navbar{
     width: 100%;
     display: grid;
-    grid-template-columns:0.1fr 1fr;
+    grid-template-columns:0.1fr 0.9fr;
 line-height: 3.5rem;
 }
 .navbar-logo{
- 
     letter-spacing: .3rem;
     text-align: center;
 }
 .navbar-logo:hover{
-    cursor: pointer;
     background-color: #B3B3B3;
 }
+.navbar-logo >p{
+    cursor: pointer;
+}
+
 .menu{
     text-align:center;
-    width: 40%;
+    width: 70%;
     display: grid;
-    grid-template-columns: repeat(5,auto);
+    grid-template-columns: repeat(6,auto);
     justify-self: right;
     list-style: none;
-    margin-right: 2rem;
 }
-.menu li:hover{
+.menu >li:hover{
 background-color: #B3B3B3;
 }
 .menu-links{
@@ -30,10 +31,61 @@ background-color: #B3B3B3;
     color: #000;
     text-decoration: none;
 }
+
+.menu-links-close{
+    display: none;
+}
 .menu-links i{
     position: relative;
     bottom: 2px;
     padding-bottom: .3rem;
     font-size:.9rem;
     padding: 0.1rem;
+}
+
+.mobile-menu-icon{
+    cursor: pointer;
+    position: absolute;
+     top: 15px;
+    right: 30px;
+    display: none;
+}
+.mobile-menu-icon >span{
+    margin-bottom: 4px;
+    display: block;
+    background-color: #000;
+    width: 20px;
+    height: 5px;
+}
+
+
+@media screen and (max-width:600px){
+.mobile-menu-icon{
+    display: block;
+}
+.menu-links >i{
+    display: none;
+}
+.menu{
+    z-index: 10;
+    background-color: #000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align:left;
+    width: 40%;
+    list-style: none;
+    transition: all 0.9s ease-out;
+}
+.menu-links-close{
+    display: block;
+}
+.menu-links{
+    color: #fff;
+    padding-left: 1rem;
+}
 }

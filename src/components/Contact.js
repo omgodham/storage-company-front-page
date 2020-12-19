@@ -3,7 +3,7 @@ import RoomIcon from '@material-ui/icons/Room';
 import MailIcon from '@material-ui/icons/Mail';
 import PhoneIcon from '@material-ui/icons/Phone';
 function Contact(){
-        return <div className="contact">
+        return <div className="contact" id="contact">
                   <h3 >CONTACT</h3>
         <p >Lets get in touch. Send us a message:</p>
         <div className="text-section">
