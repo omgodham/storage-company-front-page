@@ -49,3 +49,10 @@ margin-bottom: 2rem;
    .seventy-five{
        width: 75%;
    }
+
+   @media screen and (max-width:600px){
+    .skills-content{
+        display: grid;
+        grid-template-columns: repeat(1,auto);
+    }  
+}

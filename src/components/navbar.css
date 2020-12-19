@@ -23,6 +23,9 @@ line-height: 3.5rem;
     justify-self: right;
     list-style: none;
 }
+.menu >li{
+width: 100%;
+}
 .menu >li:hover{
 background-color: #B3B3B3;
 }
@@ -32,10 +35,7 @@ background-color: #B3B3B3;
     text-decoration: none;
 }
 
-.menu-links-close{
-    display: none;
-}
-.menu-links i{
+.menu-links >i{
     position: relative;
     bottom: 2px;
     padding-bottom: .3rem;
@@ -43,6 +43,13 @@ background-color: #B3B3B3;
     padding: 0.1rem;
 }
 
+.close-btn{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    color: #000 !important;
+}
 .mobile-menu-icon{
     cursor: pointer;
     position: absolute;
@@ -71,15 +78,21 @@ background-color: #B3B3B3;
     background-color: #000;
     position: absolute;
     top: 0;
-    left: 0;
+    left: -55%;
     position: fixed;
     display: flex;
     flex-direction: column;
     height: 100%;
     text-align:left;
-    width: 40%;
+    width: 50%;
     list-style: none;
-    transition: all 0.9s ease-out;
+    transition: all 0.3s ease-out;
+}
+.active{
+    position: absolute;
+    top: 0;
+    left: 0;
+    position: fixed;
 }
 .menu-links-close{
     display: block;

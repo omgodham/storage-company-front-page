@@ -46,3 +46,22 @@ margin-bottom: 2rem;
     cursor: pointer;
     opacity: .8; 
 }
+
+@media screen and (max-width:600px)
+{
+    .heading{
+        padding-top:3rem ;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .description{
+        font-weight: 400;
+        font-size: 1.2rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+    .socials{
+
+        font-size: 1.2rem;
+    }
+}
