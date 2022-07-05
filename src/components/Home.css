@@ -1,67 +1,86 @@
-
-.home-page{
-    width: 100%;
-    color: white;
-    background-image:url("../images/mac.jpg");
-background-size: cover;
-background-position: center;
+.home-page {
+  width: 100%;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
-.content{
-    height: 100%;
-    line-height: 4rem;
-    width: 70%;
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+.background-container img {
+  height: 100%;
+  width: 100%;
+}
+.content {
+  height: 100%;
+  line-height: 4rem;
+  width: 80%;
   margin-left: 4rem;
+  padding-top: 3rem;
+}
+.heading {
+  font-size: 4rem;
+  font-weight: 100;
+  padding-top: 6rem;
+  margin-bottom: 2rem;
+}
+.description {
+  font-weight: 600;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+}
+.home-page-btn {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  margin-bottom: 12rem;
+  background-color: rgba(251, 249, 249, 1);
+  border: none;
+  padding-top: 1rem;
+  font-weight: 700;
+}
+.home-page-btn:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: all 50ms linear;
+}
+.socials {
+  margin-left: 4rem;
+  padding-bottom: 2rem;
+  /* opacity: 0.5; */
+  font-size: 0.8rem;
+}
+.socials i {
+  padding: 10px;
+  font-size: 1.1rem;
+}
+.socials i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 600px) {
+  .heading {
     padding-top: 3rem;
-    
-}
-.heading{
-font-size: 4rem;
-font-weight: 100;
-padding-top:6rem;
-margin-bottom: 2rem;
-}
-.description{
+    font-size: 3rem;
+    text-align: center;
+  }
+  .description {
     font-weight: 400;
     font-size: 1.2rem;
-}
-.home-page-btn{
+    line-height: 2rem;
+    margin-bottom: 1rem;
+  }
+  .socials {
     font-size: 1.2rem;
-    padding:1rem 2rem;
-    margin-bottom: 10rem;
-    background-color: rgb(185,185,185,0.7);
-    border: none;
-    padding-top: 1rem;
-}
-.home-page-btn:hover{
-    cursor: pointer;
-    background-color: #B9B9B9;
-}
-.socials{
-    margin-left: 4rem;
-    padding-bottom: 2rem;
-    opacity: .5; 
-    font-size: 0.8rem;
-}
-.socials i:hover{
-    cursor: pointer;
-    opacity: .8; 
-}
-
-@media screen and (max-width:600px)
-{
-    .heading{
-        padding-top:3rem ;
-        font-size: 3rem;
-        text-align: center;
-    }
-    .description{
-        font-weight: 400;
-        font-size: 1.2rem;
-        line-height: 2rem;
-        margin-bottom: 1rem;
-    }
-    .socials{
-
-        font-size: 1.2rem;
-    }
+  }
 }
